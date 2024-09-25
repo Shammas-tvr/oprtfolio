@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+      
+      <!-- <button onclick="show ()" >click me </button> -->
+      <input type="text" id="ind">
+      <button onclick="display()">click me</button>
+      <h1 id="display-head" > </h1>
+      
+</body>
+
+c:\Users\muham\OneDrive\Desktop\protofilio
+
+
+
+<script>
+    function show(){
+        console.log("button clicked")
+        var person=[{
+            name:"shammas",
+            age:18,
+            place:"vadakara"
+
+        },{ name:"yahya",
+            age:22,
+            place:"nadapuram",
+            } ]
+    
+        console.log(person)
+       var k=15;
+       let l=10;
+       console.log("values"+k,l);
+        const o=25;
+       
+
+
+    }
+  
+    function display(){
+      var text=document.getElementById("ind").value
+      document.getElementById("display-head").innerHTML=text
+    }
+
+</script>
+</html>
